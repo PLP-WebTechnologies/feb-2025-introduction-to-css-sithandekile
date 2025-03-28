@@ -9,21 +9,26 @@ width: 30%;
 height: 20%;
 background-color: rgb(117, 18, 18);
 box-shadow: 4px 4px 8px  rgb(117, 18, 18);;
-padding: 0 10%;
+ padding:0 5px;
 border-radius: 10px;
 color:#fff;
 }
 
-.profile-card button{
-  padding: 2px;
-
-}
-.profile-img{
-  width:200px;
-  height:200px;
-  border-radius: 50%;
+.profile-card button{ 
+  margin-left: 10%;
+    padding: 2px; 
+    width: 20%;
   
+    
+  }
+  
+.profile-img {
+  display: block; /* I need this for margin: auto */
+  margin: 0 auto; /* Centering  the image */
+  max-width: 200px;
+  border-radius: 50%;
 }
+
 h1,h2,p{
   text-align: center;
 }
