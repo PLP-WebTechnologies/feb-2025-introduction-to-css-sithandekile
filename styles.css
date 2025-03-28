@@ -1,0 +1,48 @@
+body{
+  background-color:#000;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+}
+.profile-card{
+margin: auto;
+width: 30%;
+height: 20%;
+background-color: rgb(117, 18, 18);
+box-shadow: 4px 4px 8px  rgb(117, 18, 18);;
+padding: 0 10%;
+border-radius: 10px;
+color:#fff;
+}
+
+.profile-card button{
+  padding: 2px;
+
+}
+.profile-img{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  
+}
+h1,h2,p{
+  text-align: center;
+}
+.role,.bio{
+  font-size: 18px;  
+}
+#facebook{
+  background-color:rgb(38, 38, 242);
+  color:#fff;
+  font-weight: bold;
+}
+#linkedin{
+  background-color:blue;
+  color:#fff;
+  font-weight: bold;
+}
+#github{
+  background-color:#000;
+  color:#fff;
+  font-weight: bold;
+}
+
